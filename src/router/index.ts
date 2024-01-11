@@ -8,6 +8,7 @@ import {
 import LayoutMain from '../components/layout/LayoutMain.vue'
 import Error from '../views/Error.vue'
 import Home from '../views/Home.vue'
+import Doggo from '../modules/doggo/pages/index.vue'
 
 const mainRoutes: RouteRecordRaw[] = [
   {
@@ -15,6 +16,11 @@ const mainRoutes: RouteRecordRaw[] = [
     name: 'Home',
     props: true,
     component: Home,
+  },{
+    path: '/doggo',
+    name: 'Doggo',
+    props: true,
+    component: Doggo,
   },
 ]
 

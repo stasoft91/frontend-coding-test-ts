@@ -70,6 +70,9 @@ module.exports = {
   overrides: [],
   settings: {
     'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+      },
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
       },
